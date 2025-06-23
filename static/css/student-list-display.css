@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 20px;
+  clear: both;
+}
+
+/* Card Styles */
+.card {
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Custom Button Styles */
+.custom-btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 5px;
+}
+
+.custom-btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Modal Styles */
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: #f8f9fa;
+  border-bottom: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Delete Confirmation */
+.modal-footer .btn-danger {
+  background-color: #dc3545;
+  border-radius: 5px;
+}
+
+.modal-footer .btn-danger:hover {
+  background-color: #c82333;
+}
+
+/* Student Row Layout */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col-md-4 {
+  flex: 0 0 33.333%;
+  max-width: 33.333%;
+  padding: 0 15px;
+}
